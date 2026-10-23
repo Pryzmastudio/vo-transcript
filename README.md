@@ -3,7 +3,7 @@
 Drive the real macOS VoiceOver from the command line and get a transcript of what it says on a web page.
 
 ```
-$ npx github:Pryzmastudio/vo-transcript https://www.w3.org/WAI/demos/bad/before/home.html https://www.w3.org/WAI/demos/bad/after/home.html
+$ npx vo-transcript https://www.w3.org/WAI/demos/bad/before/home.html https://www.w3.org/WAI/demos/bad/after/home.html
 
 https://www.w3.org/WAI/demos/bad/before/home.html
    18  Demo starts here
@@ -58,8 +58,8 @@ You also need Node.js 20 or newer.
 ## Use
 
 ```sh
-npx github:Pryzmastudio/vo-transcript https://example.com
-npx github:Pryzmastudio/vo-transcript http://localhost:3000 http://localhost:3000/contact --steps 80
+npx vo-transcript https://example.com
+npx vo-transcript http://localhost:3000 http://localhost:3000/contact --steps 80
 ```
 
 **While it runs, VoiceOver speaks out loud and takes the keyboard.** Don't type or switch windows. There's a 5 second warning before it starts (skip it with `-y`). Ctrl+C stops the run and turns VoiceOver off.

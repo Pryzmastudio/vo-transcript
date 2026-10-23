@@ -1,6 +1,6 @@
 {
   "name": "vo-transcript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Drive the real macOS VoiceOver through AppleScript and get a transcript of what it says on a web page. No Full Disk Access, no changes to VoiceOver's settings files.",
   "type": "module",
   "bin": {
@@ -35,10 +35,17 @@
     "wcag"
   ],
   "author": {
-    "name": "Vayle (Nikita Roskladka)",
+    "name": "Vayle",
     "email": "hello@vayle.art",
     "url": "https://vayle.art"
   },
+  "contributors": [
+    {
+      "name": "Nikita Roskladka",
+      "email": "hello@vayle.art",
+      "url": "https://vayle.art"
+    }
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
