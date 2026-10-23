@@ -1,0 +1,51 @@
+{
+  "name": "vo-transcript",
+  "version": "1.0.0",
+  "description": "Drive the real macOS VoiceOver through AppleScript and get a transcript of what it says on a web page. No Full Disk Access, no changes to VoiceOver's settings files.",
+  "type": "module",
+  "bin": {
+    "vo-transcript": "bin/vo-transcript.mjs"
+  },
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/analyze.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "os": [
+    "darwin"
+  ],
+  "keywords": [
+    "voiceover",
+    "screen-reader",
+    "accessibility",
+    "a11y",
+    "applescript",
+    "macos",
+    "testing",
+    "wcag"
+  ],
+  "author": {
+    "name": "Vayle (Nikita Roskladka)",
+    "email": "hello@vayle.art",
+    "url": "https://vayle.art"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pryzmastudio/vo-transcript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Pryzmastudio/vo-transcript/issues"
+  },
+  "homepage": "https://github.com/Pryzmastudio/vo-transcript#readme"
+}
